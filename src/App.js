@@ -15,7 +15,7 @@ function App() {
         <Route path="/*" element={<NotFound />} />
         <Route
           exact
-          path=""
+          path="/project-gutenberg-book-app"
           element={<Navigate to="/" replace />}
         />
       </Routes>
